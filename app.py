@@ -18,8 +18,7 @@ def home():
 
     <h3>📞 7739900391</h3>
     <h3>📞 6206534287</h3>
-
-    <a href="https://wa.me/917739000391">
+<a href="https://wa.me/917739900391">
         <button style="background:green;color:white;padding:10px 20px;border:none;border-radius:5px;">
             WhatsApp Now
         </button>
