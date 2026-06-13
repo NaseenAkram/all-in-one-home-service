@@ -120,7 +120,7 @@ def booking():
     except:
         pass
 
-    return """
+        return """
     <h1 style="color:green;">Booking Submitted Successfully!</h1>
     <h3>We will contact you soon.</h3>
     <a href="/">Go Home</a>
