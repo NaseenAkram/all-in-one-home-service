@@ -107,7 +107,7 @@ def booking():
         f.write(f"Service: {service}\n")
         f.write("-------------------\n")
 
-    try:
+       try:
         requests.post(
             "https://script.google.com/macros/s/AKfycbwP3FIxxUnLiHQ9vd9XOYlzomKkUDDCXvTUrkqoF92Y8uRgNMTnrN5JKVMH-GXlRcZo/exec",
             json={
@@ -117,8 +117,8 @@ def booking():
                 "service": service
             }
         )
-except:
-    pass
+    except:
+        pass
 
     return """
     <h1 style="color:green;">Booking Submitted Successfully!</h1>
