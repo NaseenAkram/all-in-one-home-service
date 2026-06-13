@@ -164,13 +164,13 @@ Service:<br>
 @app.route("/bookings")
 def bookings():
 
-try:
-    with open("bookings.txt", "r") as f:
-        data = f.read()
-except:
-    data = "No bookings found."
+    try:
+        with open("bookings.txt", "r") as f:
+            data = f.read()
+    except:
+        data = "No bookings found."
 
-return f"""
+    return f"""
 <html>
 <body style="font-family:Arial;padding:20px;">
     <h1>All Bookings</h1>
