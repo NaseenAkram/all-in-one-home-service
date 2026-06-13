@@ -93,10 +93,10 @@ ALL IN ONE HOME SERVICE
 @app.route("/booking", methods=["GET", "POST"])
 def booking():
 
-if request.method == "POST":
+    if request.method == "POST":
 
-    name = request.form["name"]
-    mobile = request.form["mobile"]
+        name = request.form["name"]
+        mobile = request.form["mobile"]
     address = request.form["address"]
     service = request.form["service"]
 
