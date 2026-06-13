@@ -2,8 +2,6 @@ from flask import Flask, request
 import requests
 import os
 
-BOOKINGS_PASSWORD = "FARIDABAD@2026"
-
 app = Flask(__name__)
 
 
