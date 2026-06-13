@@ -2,6 +2,8 @@ from flask import Flask, request
 import requests
 import os
 
+BOOKINGS_PASSWORD = "FARIDABAD@2026"
+
 app = Flask(__name__)
 
 
@@ -165,32 +167,71 @@ def booking():
     """
 
 
-@app.route("/bookings")
+@app.route("/bookings", methods=["GET", "POST"])
 def bookings():
 
-    try:
-        with open("bookings.txt", "r") as f:
-            data = f.read()
-    except:
-        data = "No bookings found."
+    if request.method == "POST":
 
-    return f"""
+        password = request.form["password"]
+
+        if password == BOOKINGS_PASSWORD:
+
+            try:
+                with open("bookings.txt", "r") as f:
+                    data = f.read()
+            except:
+                data = "No bookings found."
+
+            return f"""
+            <html>
+            <body style="font-family:Arial;padding:20px;">
+                <h1>All Bookings</h1>
+
+                <pre>{data}</pre>
+
+                <br><br>
+
+                <a href="/">
+                    <button>Go Home</button>
+                </a>
+
+            </body>
+            </html>
+            """
+
+        return """
+        <html>
+        <body style="text-align:center;font-family:Arial;">
+            <h2 style="color:red;">Wrong Password</h2>
+            <a href="/bookings">Try Again</a>
+        </body>
+        </html>
+        """
+
+    return """
     <html>
-    <body style="font-family:Arial;padding:20px;">
-        <h1>All Bookings</h1>
+    <body style="font-family:Arial;text-align:center;padding:50px;">
 
-        <pre>{data}</pre>
+        <h2>Admin Login</h2>
 
-        <br><br>
+        <form method="POST">
 
-        <a href="/">
-            <button>Go Home</button>
-        </a>
+            <input type="password"
+                   name="password"
+                   placeholder="Enter Password"
+                   required>
+
+            <br><br>
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
 
     </body>
     </html>
     """
-
 
 if __name__ == "__main__":
     app.run(
