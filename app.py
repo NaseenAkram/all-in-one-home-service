@@ -117,17 +117,17 @@ def booking():
                 "service": service
             }
         )
-    except:
-        pass
+except:
+    pass
 
-        return """
+    return """
     <h1 style="color:green;">Booking Submitted Successfully!</h1>
     <h3>We will contact you soon.</h3>
     <a href="/">Go Home</a>
     """
 
-return """
-<html>
+    return """
+    <html>
 <body style="font-family:Arial;text-align:center;background:#f5f5f5;padding:30px;">
 
 <h1>Book Service</h1>
