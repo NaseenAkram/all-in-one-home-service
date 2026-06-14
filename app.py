@@ -108,7 +108,9 @@ background:#ff9800;
 ⭐⭐⭐⭐⭐ Trusted Washing Machine Service
 </div>
 
-<h2 style="color:#0d47a1;">Frequently Asked Questions</h2>
+<h2 style="color:#0d47a1;text-align:center;margin-top:30px;">
+Frequently Asked Questions
+</h2>
 
 <div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
 <b>Q. Same Day Service Available?</b><br>
