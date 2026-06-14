@@ -90,9 +90,26 @@ margin-bottom:20px;">
 ⭐⭐⭐⭐⭐ Fast Refrigerator Repair
 </div>
 
-<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
 ⭐⭐⭐⭐⭐ Trusted Washing Machine Service
 </div>
+
+<h2 style="color:#0d47a1;">Frequently Asked Questions</h2>
+
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<b>Q. Same Day Service Available?</b><br>
+Yes, same day service available.
+</div>
+
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<b>Q. Which Areas Do You Serve?</b><br>
+Arwal District and nearby areas.
+</div>
+
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<b>Q. Do You Repair All Brands?</b><br>
+Yes, we repair most major brands.
+</div>
+
 <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;padding:30px;">
 
 <div style="background:white;padding:20px 40px;border-radius:15px;box-shadow:0 5px 15px #ddd;">
