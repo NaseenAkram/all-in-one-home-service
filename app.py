@@ -103,7 +103,21 @@ ALL IN ONE HOME SERVICE
         <p>Arwal District, Bihar</p>
         <p>📞 7739900391 | 6206534287</p>
     </div>
-
+<a href="https://wa.me/917739900391"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 10px #999;
+z-index:9999;">
+💬 WhatsApp
+</a>
     </body>
     </html>
     """
