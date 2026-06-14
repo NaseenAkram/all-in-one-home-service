@@ -55,7 +55,22 @@ margin-bottom:20px;">
 🚨 Same Day Home Service Available
 📞 Call Now: 7739900391
 </div>
-
+<div style="text-align:center;margin:25px 0;">
+    <a href="/booking" style="text-decoration:none;">
+        <button style="
+        background:#28a745;
+        color:white;
+        padding:18px 45px;
+        border:none;
+        border-radius:50px;
+        font-size:22px;
+        font-weight:bold;
+        cursor:pointer;
+        box-shadow:0 5px 15px #999;">
+        📋 BOOK SERVICE NOW
+        </button>
+    </a>
+</div>
 <h2 style="color:#0d47a1;">Our Services</h2>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
@@ -129,13 +144,7 @@ Yes, we repair most major brands.
 
 </div>
 
-        <form action="/booking">
-            <button style="background:#1976d2;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
-                Book Service
-            </button>
-        </form>
 
-        <br>
 
     </div>
 <h2 style="color:#0d47a1;text-align:center;">
