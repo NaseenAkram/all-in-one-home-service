@@ -90,12 +90,6 @@ ALL IN ONE HOME SERVICE
 
         <br>
 
-        <a href="/bookings">
-            <button style="background:black;color:white;padding:12px 25px;border:none;border-radius:8px;">
-                View Bookings
-            </button>
-        </a>
-
     </div>
 
     <div style="background:#0d47a1;color:white;padding:20px;text-align:center;">
