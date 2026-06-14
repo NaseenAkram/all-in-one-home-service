@@ -80,7 +80,24 @@ ALL IN ONE HOME SERVICE
 <div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
 ⭐⭐⭐⭐⭐ Trusted Washing Machine Service
 </div>
-        <br>
+<div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;padding:30px;">
+
+<div style="background:white;padding:20px 40px;border-radius:15px;box-shadow:0 5px 15px #ddd;">
+<h1 style="color:#0d47a1;">150+</h1>
+<p>Services Completed</p>
+</div>
+
+<div style="background:white;padding:20px 40px;border-radius:15px;box-shadow:0 5px 15px #ddd;">
+<h1 style="color:#0d47a1;">75+</h1>
+<p>Happy Customers</p>
+</div>
+
+<div style="background:white;padding:20px 40px;border-radius:15px;box-shadow:0 5px 15px #ddd;">
+<h1 style="color:#0d47a1;">24x7</h1>
+<p>Support Available</p>
+</div>
+
+</div>
 
         <form action="/booking">
             <button style="background:#1976d2;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
