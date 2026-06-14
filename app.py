@@ -41,9 +41,22 @@ ALL IN ONE HOME SERVICE
         </a>
     </div>
 
-    <div style="padding:30px;text-align:center;">
+<div style="padding:30px;text-align:center;">
 
-        <h2 style="color:#0d47a1;">Our Services</h2>
+<div style="
+background:red;
+color:white;
+padding:15px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+border-radius:10px;
+margin-bottom:20px;">
+🚨 Same Day Home Service Available
+📞 Call Now: 7739900391
+</div>
+
+<h2 style="color:#0d47a1;">Our Services</h2>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
 ❄️ AC Service & Repair
