@@ -9,90 +9,108 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return """
-    <html>
-    <head>
-        <title>ALL IN ONE HOME SERVICE</title>
-    </head>
+return """ <html> <head> <title>ALL IN ONE HOME SERVICE</title> </head>
 
-    <body style="font-family:Arial;background:#f4f7fb;margin:0;">
+```
+<body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
-    <div style="background:#0d47a1;color:white;padding:50px;text-align:center;">
-        <h1>ALL IN ONE HOME SERVICE</h1>
-        <h3>Fast & Trusted Home Appliance Repair Service</h3>
+<div style="background:#0d47a1;color:white;padding:60px 20px;text-align:center;">
+    <h1 style="font-size:42px;">ALL IN ONE HOME SERVICE</h1>
+    <h3>Fast • Trusted • Affordable Home Appliance Repair</h3>
 
-        <p>📍 Service Available Across Arwal District</p>
+    <p>📍 Service Available Across Arwal District</p>
 
-        <h2>📞 7739900391</h2>
-        <h3>📞 6206534287</h3>
+    <h2>📞 7739900391</h2>
+    <h3>📞 6206534287</h3>
 
-        <a href="https://wa.me/917739900391">
-            <button style="background:#25D366;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
-                WhatsApp Now
-            </button>
-        </a>
+    <a href="https://wa.me/917739900391">
+        <button style="background:#25D366;color:white;padding:15px 30px;border:none;border-radius:10px;font-size:18px;">
+            WhatsApp Now
+        </button>
+    </a>
 
-        <a href="tel:+917739900391">
-            <button style="background:#ff9800;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
-                Call Now
-            </button>
-        </a>
+    <a href="tel:+917739900391">
+        <button style="background:#ff9800;color:white;padding:15px 30px;border:none;border-radius:10px;font-size:18px;">
+            Call Now
+        </button>
+    </a>
+</div>
+
+<div style="padding:30px;text-align:center;">
+
+    <h2 style="color:#0d47a1;">Our Services</h2>
+
+    <div style="background:white;padding:20px;margin:15px;border-radius:15px;box-shadow:0 0 15px #ddd;">
+        ❄️ AC Service & Repair
     </div>
 
-    <div style="padding:30px;text-align:center;">
-
-        <h2 style="color:#0d47a1;">Our Services</h2>
-
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            AC Service & Repair
-        </div>
-
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Refrigerator Repair
-        </div>
-
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Washing Machine Repair
-        </div>
-
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Geyser Service
-        </div>
-
-        <h2 style="color:#0d47a1;">Why Choose Us?</h2>
-
-        <p>✔ Service Across Arwal District</p>
-        <p>✔ Fast Response</p>
-        <p>✔ Affordable Charges</p>
-        <p>✔ Trusted Service</p>
-
-        <br>
-
-        <form action="/booking">
-            <button style="background:#1976d2;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
-                Book Service
-            </button>
-        </form>
-
-        <br>
-
-        <a href="/bookings">
-            <button style="background:black;color:white;padding:12px 25px;border:none;border-radius:8px;">
-                View Bookings
-            </button>
-        </a>
-
+    <div style="background:white;padding:20px;margin:15px;border-radius:15px;box-shadow:0 0 15px #ddd;">
+        🧊 Refrigerator Repair
     </div>
 
-    <div style="background:#0d47a1;color:white;padding:20px;text-align:center;">
-        <h3>ALL IN ONE HOME SERVICE</h3>
-        <p>Arwal District, Bihar</p>
-        <p>📞 7739900391 | 6206534287</p>
+    <div style="background:white;padding:20px;margin:15px;border-radius:15px;box-shadow:0 0 15px #ddd;">
+        🌀 Washing Machine Repair
     </div>
 
-    </body>
-    </html>
-    """
+    <div style="background:white;padding:20px;margin:15px;border-radius:15px;box-shadow:0 0 15px #ddd;">
+        🔥 Geyser Service
+    </div>
+
+    <h2 style="color:#0d47a1;">Why Choose Us?</h2>
+
+    <p>✅ Same Day Service</p>
+    <p>✅ Affordable Charges</p>
+    <p>✅ Trusted Service</p>
+    <p>✅ Doorstep Repair</p>
+    <p>✅ Service Across Arwal District</p>
+
+    <h2 style="color:#0d47a1;">Customer Reviews</h2>
+
+    <div style="background:white;padding:15px;margin:15px;border-radius:12px;">
+        ⭐⭐⭐⭐⭐ Ravi Kumar - AC Service Excellent
+    </div>
+
+    <div style="background:white;padding:15px;margin:15px;border-radius:12px;">
+        ⭐⭐⭐⭐⭐ Sonu Singh - Refrigerator Repair Fast Service
+    </div>
+
+    <div style="background:white;padding:15px;margin:15px;border-radius:12px;">
+        ⭐⭐⭐⭐⭐ Aman Kumar - Washing Machine Repair Very Good
+    </div>
+
+    <br>
+
+    <form action="/booking">
+        <button style="background:#1976d2;color:white;padding:15px 30px;border:none;border-radius:10px;font-size:18px;">
+            Book Service Now
+        </button>
+    </form>
+
+    <br>
+
+    <a href="/bookings">
+        <button style="background:black;color:white;padding:12px 25px;border:none;border-radius:8px;">
+            Admin Login
+        </button>
+    </a>
+
+</div>
+
+<a href="https://wa.me/917739900391"
+   style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;
+   padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold;">
+   WhatsApp
+</a>
+
+<div style="background:#0d47a1;color:white;padding:20px;text-align:center;">
+    <h3>ALL IN ONE HOME SERVICE</h3>
+    <p>Arwal District, Bihar</p>
+    <p>📞 7739900391 | 6206534287</p>
+</div>
+
+</body>
+</html>
+"""
 
 
 @app.route("/booking", methods=["GET", "POST"])
