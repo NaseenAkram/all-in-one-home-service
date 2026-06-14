@@ -17,8 +17,10 @@ def home():
 
     <body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
-    <div style="background:#0d47a1;color:white;padding:50px;text-align:center;">
-        <h1>ALL IN ONE HOME SERVICE</h1>
+    <div style="background:#0d47a1;color:white;padding:90px 20px;text-align:center;">
+<h1 style="font-size:48px;margin-bottom:10px;">
+ALL IN ONE HOME SERVICE
+</h1>
         <h3>Fast & Trusted Home Appliance Repair Service</h3>
 
         <p>📍 Service Available Across Arwal District</p>
@@ -44,19 +46,19 @@ def home():
         <h2 style="color:#0d47a1;">Our Services</h2>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            AC Service & Repair
+❄️ AC Service & Repair
         </div>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Refrigerator Repair
+🧊 Refrigerator Repair
         </div>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Washing Machine Repair
+🌀 Washing Machine Repair
         </div>
 
         <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-            Geyser Service
+🔥 Geyser Service
         </div>
 
         <h2 style="color:#0d47a1;">Why Choose Us?</h2>
