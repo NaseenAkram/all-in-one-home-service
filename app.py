@@ -58,7 +58,7 @@ margin-bottom:20px;">
 <div style="text-align:center;margin:25px 0;">
     <a href="/booking" style="text-decoration:none;">
         <button style="
-        background:#28a745;
+background:#ff9800;
         color:white;
         padding:18px 45px;
         border:none;
