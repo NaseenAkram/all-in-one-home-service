@@ -65,7 +65,19 @@ def home():
         <p>✔ Fast Response</p>
         <p>✔ Affordable Charges</p>
         <p>✔ Trusted Service</p>
+<h2 style="color:#0d47a1;">Customer Reviews</h2>
 
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+⭐⭐⭐⭐⭐ Excellent AC Service
+</div>
+
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+⭐⭐⭐⭐⭐ Fast Refrigerator Repair
+</div>
+
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+⭐⭐⭐⭐⭐ Trusted Washing Machine Service
+</div>
         <br>
 
         <form action="/booking">
