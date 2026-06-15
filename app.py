@@ -28,17 +28,17 @@ ALL IN ONE HOME SERVICE
         <h2>📞 7739900391</h2>
         <h3>📞 6206534287</h3>
 
-        <a href="https://wa.me/917739900391">
-background:#25D366;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;
-                WhatsApp Now
-            </button>
-        </a>
+<a href="https://wa.me/917739900391">
+<button style="background:#25D366;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;">
+WhatsApp Now
+</button>
+</a>
 
-        <a href="tel:+917739900391">
-background:#ff9800;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;
-                Call Now
-            </button>
-        </a>
+<a href="tel:+917739900391">
+<button style="background:#ff9800;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;">
+Call Now
+</button>
+</a>
     </div>
 
 <div style="padding:30px;text-align:center;">
