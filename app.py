@@ -12,8 +12,9 @@ def home():
     return """
     <html>
 <head>
-    <title>ALL IN ONE HOME SERVICE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALL IN ONE HOME SERVICE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AC Repair, Refrigerator Repair, Washing Machine Repair and Geyser Service in Arwal Bihar. Call 7739900391.">
 </head>
     <body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
@@ -105,6 +106,7 @@ background:#ff9800;
 ⭐⭐⭐⭐⭐ Fast Refrigerator Repair
 </div>
 
+<div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
 ⭐⭐⭐⭐⭐ Trusted Washing Machine Service
 </div>
 
@@ -169,11 +171,11 @@ style="border:0;border-radius:15px;">
 <a href="https://wa.me/917739900391"
 style="
 position:fixed;
-bottom:20px;
+bottom:10px;
 right:20px;
 background:#25D366;
 color:white;
-padding:15px 20px;
+padding:12px 18px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
