@@ -17,7 +17,7 @@ def home():
 </head>
     <body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
-    <div style="background:#0d47a1;color:white;padding:90px 20px;text-align:center;">
+<div style="background:#0d47a1;color:white;padding:60px 15px;text-align:center;">
 <h1 style="font-size:clamp(32px,6vw,48px);margin-bottom:10px;">
 ALL IN ONE HOME SERVICE
 </h1>
@@ -55,15 +55,15 @@ margin-bottom:20px;">
 🚨 Same Day Home Service Available
 📞 Call Now: 7739900391
 </div>
-<div style="text-align:center;margin:25px 0;">
+<div style="text-align:center;margin:15px 0;">
     <a href="/booking" style="text-decoration:none;">
         <button style="
 background:#ff9800;
         color:white;
-        padding:18px 45px;
+        padding:16px 35px;
         border:none;
         border-radius:50px;
-        font-size:22px;
+        font-size:20px;
         font-weight:bold;
         cursor:pointer;
         box-shadow:0 5px 15px #999;">
