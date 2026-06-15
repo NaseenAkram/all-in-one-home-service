@@ -11,14 +11,14 @@ app = Flask(__name__)
 def home():
     return """
     <html>
-    <head>
-        <title>ALL IN ONE HOME SERVICE</title>
-    </head>
-
+<head>
+    <title>ALL IN ONE HOME SERVICE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
     <body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
     <div style="background:#0d47a1;color:white;padding:90px 20px;text-align:center;">
-<h1 style="font-size:48px;margin-bottom:10px;">
+<h1 style="font-size:clamp(32px,6vw,48px);margin-bottom:10px;">
 ALL IN ONE HOME SERVICE
 </h1>
         <h3>Fast & Trusted Home Appliance Repair Service</h3>
@@ -29,13 +29,13 @@ ALL IN ONE HOME SERVICE
         <h3>📞 6206534287</h3>
 
         <a href="https://wa.me/917739900391">
-            <button style="background:#25D366;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
+background:#25D366;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;
                 WhatsApp Now
             </button>
         </a>
 
         <a href="tel:+917739900391">
-            <button style="background:#ff9800;color:white;padding:12px 25px;border:none;border-radius:8px;font-size:16px;">
+background:#ff9800;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;
                 Call Now
             </button>
         </a>
@@ -73,19 +73,19 @@ background:#ff9800;
 </div>
 <h2 style="color:#0d47a1;">Our Services</h2>
 
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<div style="background:white;padding:25px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;font-size:20px;font-weight:bold;">
 ❄️ AC Service & Repair
         </div>
 
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<div style="background:white;padding:25px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;font-size:20px;font-weight:bold;">
 🧊 Refrigerator Repair
         </div>
 
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<div style="background:white;padding:25px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;font-size:20px;font-weight:bold;">
 🌀 Washing Machine Repair
         </div>
 
-        <div style="background:white;padding:20px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
+<div style="background:white;padding:25px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;font-size:20px;font-weight:bold;">
 🔥 Geyser Service
         </div>
 
