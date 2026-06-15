@@ -216,68 +216,11 @@ def booking():
         except:
             pass
 
-return """
-<html>
-<body style="font-family:Arial;background:#f4f7fb;text-align:center;padding:50px;">
-
-<div style="
-max-width:600px;
-margin:auto;
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 5px 20px #ddd;">
-
-<h1 style="color:green;">✅ Booking Submitted Successfully!</h1>
-
-<h3>Thank You For Choosing ALL IN ONE HOME SERVICE</h3>
-
-<p>Our team will contact you shortly.</p>
-
-<br>
-
-<a href="tel:+917739900391"
-style="
-background:#ff9800;
-color:white;
-padding:12px 25px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;">
-📞 Call Now
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://wa.me/917739900391"
-style="
-background:#25D366;
-color:white;
-padding:12px 25px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;">
-💬 WhatsApp
-</a>
-
-<br><br><br>
-
-<a href="/"
-style="
-background:#0d47a1;
-color:white;
-padding:12px 25px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;">
-🏠 Back To Home
-</a>
-
-</div>
-
-</body>
-</html>
-"""
+        return """
+        <h1 style="color:green;">Booking Submitted Successfully!</h1>
+        <h3>We will contact you soon.</h3>
+        <a href="/">Go Home</a>
+        """
 
     return """
 <html>
