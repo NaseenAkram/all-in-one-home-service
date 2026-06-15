@@ -108,7 +108,7 @@ background:#ff9800;
 ⭐⭐⭐⭐⭐ Trusted Washing Machine Service
 </div>
 
-<h2 style="color:#0d47a1;text-align:center;margin-top:30px;">
+<h2 style="color:#0d47a1;text-align:center;margin-top:30px;width:100%;">
 Frequently Asked Questions
 </h2>
 
