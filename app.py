@@ -99,15 +99,18 @@ background:#ff9800;
 <h2 style="color:#0d47a1;">Customer Reviews</h2>
 
 <div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-⭐⭐⭐⭐⭐ Excellent AC Service
+⭐⭐⭐⭐⭐ Ranjit Kumar
+Excellent AC Service. Technician arrived on time.
 </div>
 
 <div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-⭐⭐⭐⭐⭐ Fast Refrigerator Repair
+⭐⭐⭐⭐⭐ Sonu Kumar
+Fast Refrigerator Repair. Good behaviour.
 </div>
 
 <div style="background:white;padding:15px;margin:15px;border-radius:12px;box-shadow:0 0 10px #ddd;">
-⭐⭐⭐⭐⭐ Trusted Washing Machine Service
+⭐⭐⭐⭐⭐ Amit Kumar
+Washing Machine repaired same day.
 </div>
 
 <h2 style="color:#0d47a1;text-align:center;margin-top:30px;width:100%;">
