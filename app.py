@@ -18,7 +18,7 @@ def home():
     <body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
 <div style="background:#0d47a1;color:white;padding:60px 15px;text-align:center;">
-<h1 style="font-size:clamp(32px,6vw,48px);margin-bottom:10px;">
+<h1 style="font-size:clamp(28px,5vw,42px);margin-bottom:10px;">
 ALL IN ONE HOME SERVICE
 </h1>
         <h3>Fast & Trusted Home Appliance Repair Service</h3>
@@ -46,9 +46,9 @@ Call Now
 <div style="
 background:red;
 color:white;
-padding:15px;
+padding:20px;
 text-align:center;
-font-size:20px;
+font-size:18px;
 font-weight:bold;
 border-radius:10px;
 margin-bottom:20px;">
