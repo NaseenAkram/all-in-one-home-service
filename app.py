@@ -223,38 +223,60 @@ def booking():
         """
 
     return """
-    <html>
-    <body style="font-family:Arial;text-align:center;background:#f5f5f5;padding:30px;">
+<html>
+<body style="font-family:Arial;background:#f4f7fb;margin:0;">
 
-    <h1>Book Service</h1>
+<div style="background:#0d47a1;color:white;padding:30px;text-align:center;">
+<h1>📋 Book Home Service</h1>
+<p>Fast & Trusted Appliance Repair Service</p>
+</div>
 
-    <form method="POST">
+<div style="max-width:500px;margin:30px auto;background:white;padding:30px;border-radius:15px;box-shadow:0 5px 15px #ddd;">
 
-    Name:<br>
-    <input type="text" name="name" required><br><br>
+<form method="POST">
 
-    Mobile Number:<br>
-    <input type="text" name="mobile" required><br><br>
+<label><b>Your Name</b></label><br>
+<input type="text" name="name" required
+style="width:95%;padding:12px;margin-top:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:8px;"><br>
 
-    Address:<br>
-    <input type="text" name="address" required><br><br>
+<label><b>Mobile Number</b></label><br>
+<input type="text" name="mobile" required
+style="width:95%;padding:12px;margin-top:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:8px;"><br>
 
-    Service:<br>
-    <select name="service">
-        <option>AC Service</option>
-        <option>Refrigerator Repair</option>
-        <option>Washing Machine Repair</option>
-        <option>Geyser Service</option>
-    </select><br><br>
+<label><b>Address</b></label><br>
+<input type="text" name="address" required
+style="width:95%;padding:12px;margin-top:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:8px;"><br>
 
-    <button style="background:green;color:white;padding:10px 20px;border:none;border-radius:5px;" type="submit">
-        Submit Booking
-    </button>
+<label><b>Select Service</b></label><br>
+<select name="service"
+style="width:100%;padding:12px;margin-top:8px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;">
 
-    </form>
+<option>AC Service</option>
+<option>Refrigerator Repair</option>
+<option>Washing Machine Repair</option>
+<option>Geyser Service</option>
 
-    </body>
-    </html>
+</select>
+
+<button type="submit"
+style="
+width:100%;
+background:#ff9800;
+color:white;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:bold;">
+🚀 Submit Booking
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
     """
 
 
