@@ -26,8 +26,16 @@ ALL IN ONE HOME SERVICE
 
         <p>📍 Service Available Across Arwal District</p>
 
-        <h2>📞 7739900391</h2>
-        <h3>📞 6206534287</h3>
+<h2>
+<a href="tel:+917739900391" style="color:white;text-decoration:none;">
+📞 7739900391
+</a>
+</h2>
+<h3>
+<a href="tel:+916206534287" style="color:white;text-decoration:none;">
+📞 6206534287
+</a>
+</h3>
 
 <a href="https://wa.me/917739900391">
 <button style="background:#25D366;color:white;padding:15px 30px;border:none;border-radius:8px;font-size:18px;font-weight:bold;">
